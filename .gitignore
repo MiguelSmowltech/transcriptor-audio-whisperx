@@ -1,0 +1,14 @@
+# Ignorar archivos secretos
+.env
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar notebooks temporales
+.ipynb_checkpoints/
+
+# Ignorar archivos del sistema
+.DS_Store
