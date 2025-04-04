@@ -1,4 +1,10 @@
+from dotenv import load_dotenv
+import os
 
+load_dotenv()  # Carga tus variables desde .env
+
+# Recuperar el token
+HUGGINGFACE_TOKEN = os.getenv("HUGGINGFACE_TOKEN")
 import whisperx
 import torch
 import gradio as gr
