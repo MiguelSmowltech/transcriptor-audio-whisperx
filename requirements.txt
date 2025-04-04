@@ -1,0 +1,4 @@
+whisperx
+torch
+gradio
+python-dotenv
